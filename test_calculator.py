@@ -7,3 +7,7 @@ def test_regular_customer():
 
 def test_member_customer():
     assert calculate_discount(100, "member") == 20
+
+
+def test_premium_customer():
+    assert calculate_discount(100, "premium") == 30
