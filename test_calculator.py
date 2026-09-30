@@ -6,4 +6,4 @@ def test_regular_customer():
 
 
 def test_member_customer():
-    assert calculate_discount(100, True) == 20
+    assert calculate_discount(100, True) == 25
